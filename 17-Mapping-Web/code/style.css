@@ -1,0 +1,30 @@
+/* remove default margin and padding from body */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+  height: 100%;
+}
+/*  styke for legend */
+.legend {
+  line-height: 20px;
+  color: #555;
+  background-color: white;
+  height: 125px;
+  width: 55px
+ 
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  margin-left: 4px;
+  margin-top: 2px;
+  opacity: 0.7
+}
